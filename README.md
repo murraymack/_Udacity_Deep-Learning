@@ -27,7 +27,7 @@ The naive architecture trained from scratch was:
 This architecture achieved around 10% accuracy. Not very good performance, but it is a very primitive architecture, and the intent was to see the capabilities of a simple CNN without too much resource intensive training.
 
 ### Transfer Learning Architecture - VGG 11
-The chosen base architecture for a better performing classifier was VGG 11 (via PyTorch torch.model library).
+The chosen base architecture for a better performing classifier was VGG 11 (via [PyTorch torch.model library](https://pytorch.org/docs/stable/torchvision/models.html#id2)).
 <br>
 <br>
 I selected VGG 11 because it was one of the smallest models on the pre-trained list, but it still showed some pretty good accuracy on ImageNet. I thought this would be suitable because if VGG 11 was able to perform on ImageNet with 1000 classifications, then dog breeds at 133 classifications should have been no problem.
