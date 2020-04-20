@@ -13,13 +13,13 @@ The original structure of the notebook is sourced from Udacity course curriculum
 
 ### Hand-made Architecture
 The naive architecture coded from scratch was:
-1. nn.Conv2d(3, 32, 3, stride=2, padding=1)
-2. nn.Conv2d(32, 64, 3, stride=2, padding=1)
-3. nn.Conv2d(64, 64, 3, stride=1, padding=1)
+>nn.Conv2d(3, 32, 3, stride=2, padding=1)
+>nn.Conv2d(32, 64, 3, stride=2, padding=1)
+>nn.Conv2d(64, 64, 3, stride=1, padding=1)
         
-4. nn.MaxPool2d(2, 2)
-5. nn.Dropout(p=0.25)
+>nn.MaxPool2d(2, 2)
+>nn.Dropout(p=0.25)
         
-6. nn.Linear(3136,1028)
-7. nn.Linear(1028,512)
-8. nn.Linear(512,134)
+>nn.Linear(3136,1028)
+>nn.Linear(1028,512)
+>nn.Linear(512,134)
