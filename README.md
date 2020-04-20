@@ -12,7 +12,7 @@ The original structure of the notebook is sourced from Udacity course curriculum
 [Human Image Data](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip)<br>
 
 ### Hand-made Architecture
-The naive architecture coded from scratch was:
+The naive architecture trained from scratch was:
 >nn.Conv2d(3, 32, 3, stride=2, padding=1)<br>
 >nn.Conv2d(32, 64, 3, stride=2, padding=1)<br>
 >nn.Conv2d(64, 64, 3, stride=1, padding=1)<br>
