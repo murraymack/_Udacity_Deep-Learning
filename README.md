@@ -7,10 +7,9 @@ The original structure of the notebook is sourced from Udacity course curriculum
 
 ## Reference Data, etc.:
 
-[Haar feature-based cascade classifiers](http://docs.opencv.org/trunk/d7/d8b/tutorial_py_face_detection.html)
-[Dog Image Data](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip)
-[Human Image Data](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip)
-
+[Haar feature-based cascade classifiers](http://docs.opencv.org/trunk/d7/d8b/tutorial_py_face_detection.html)<br>
+[Dog Image Data](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip)<br>
+[Human Image Data](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip)<br>
 
 ### Hand-made Architecture
 The naive architecture coded from scratch was:
